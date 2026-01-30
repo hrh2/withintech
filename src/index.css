@@ -1,0 +1,532 @@
+@charset "UTF-8";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --default-font: 'Inter', sans-serif;
+    --heading-font: 'Fredoka', sans-serif;
+    --nav-font: 'Inter', sans-serif;
+}
+
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: #242424;
+    background-color: rgba(255, 255, 255, 0.87);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 270px;
+}
+
+/*.swiper-slide img {*/
+/*  display: block;*/
+/*  width: 100%;*/
+/*}*/
+
+
+/*
+VERSION 1
+
+*/
+
+:root {
+    --background-color: #ffffff; /* White for main backgrounds */
+    --default-color: #160E03; /* Dark Brown for body text */
+    --heading-color: #3D006B; /* Deep Purple for headings */
+    --accent-color: #FF3F00; /* Orange for CTAs and interactive elements */
+    --surface-color: #FCE3B9; /* Cream for boxed elements and cards */
+    --contrast-color: #ffffff; /* White for text on dark backgrounds */
+}
+
+:root {
+    --nav-color: rgba(255, 255, 255, 0.7); /* Keep semi-transparent white for nav links */
+    --nav-hover-color: #FF3F00; /* Orange for hovered/active nav items */
+    --nav-mobile-background-color: #3D006B; /* Deep Purple for mobile nav background */
+    --nav-dropdown-background-color: #ffffff; /* White for dropdown background */
+    --nav-dropdown-color: #160E03; /* Dark Brown for dropdown text */
+    --nav-dropdown-hover-color: #FF3F00; /* Orange for dropdown hover state */
+}
+
+/* Color Presets */
+
+.light-background {
+    --background-color: #FCE3B9; /* Cream for light sections */
+    --surface-color: #ffffff; /* White for cards on cream */
+    --heading-color: #3D006B;
+    --default-color: #575757;
+}
+
+.dark-background {
+    --default-color: #F5F5F5;
+    --heading-color: #ffffff;
+    --surface-color: #5F758B; /* Blue-Gray for elements on dark background */
+    --contrast-color: #ffffff;
+}
+
+.accent-background {
+    --background-color: #FF3F00; /* Orange for accent sections */
+    --default-color: #ffffff;
+    --heading-color: #ffffff;
+    --accent-color: #DD85FF; /* Light Lavender as accent on orange */
+    --surface-color: #BA00FF; /* Bright Magenta for surface elements */
+    --contrast-color: #ffffff;
+}
+
+
+/*
+
+VERSION 2
+
+*/
+
+/*:root {*/
+/*  --background-color: #ffffff; !* White for main backgrounds *!*/
+/*  --default-color: #160E03; !* Dark Brown for body text *!*/
+/*  --heading-color: #FF3F00; !* Orange for headings (was Purple) *!*/
+/*  --accent-color: #3D006B; !* Deep Purple for CTAs and interactive elements (was Orange) *!*/
+/*  --surface-color: #FCE3B9; !* Cream for boxed elements and cards *!*/
+/*  --contrast-color: #ffffff; !* White for text on dark backgrounds *!*/
+/*}*/
+
+/*:root {*/
+/*  --nav-color: rgba(255, 255, 255, 0.7); !* Keep semi-transparent white for nav links *!*/
+/*  --nav-hover-color: #3D006B; !* Deep Purple for hovered/active nav items (was Orange) *!*/
+/*  --nav-mobile-background-color: #FF3F00; !* Orange for mobile nav background (was Purple) *!*/
+/*  --nav-dropdown-background-color: #ffffff; !* White for dropdown background *!*/
+/*  --nav-dropdown-color: #160E03; !* Dark Brown for dropdown text *!*/
+/*  --nav-dropdown-hover-color: #3D006B; !* Deep Purple for dropdown hover state (was Orange) *!*/
+/*}*/
+
+/*!* Color Presets *!*/
+
+/*.light-background {*/
+/*  --background-color: #FCE3B9; !* Cream for light sections *!*/
+/*  --surface-color: #ffffff; !* White for cards on cream *!*/
+/*}*/
+
+/*.dark-background {*/
+/*  --background-color: #FF3F00; !* Orange for dark sections (was Purple) *!*/
+/*  --default-color: #ffffff;*/
+/*  --heading-color: #ffffff;*/
+/*  --surface-color: #5F758B; !* Blue-Gray for elements on dark background *!*/
+/*  --contrast-color: #ffffff;*/
+/*}*/
+
+/*.accent-background {*/
+/*  --background-color: #3D006B; !* Deep Purple for accent sections (was Orange) *!*/
+/*  --default-color: #ffffff;*/
+/*  --heading-color: #ffffff;*/
+/*  --accent-color: #DD85FF; !* Light Lavender as accent on purple *!*/
+/*  --surface-color: #BA00FF; !* Bright Magenta for surface elements *!*/
+/*  --contrast-color: #ffffff;*/
+/*}*/
+
+
+body {
+    color: var(--default-color);
+    font-family: var(--default-font), serif;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: color-mix(in srgb, var(--accent-color), transparent 25%);
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--default-color);
+    font-family: var(--heading-font);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+h2 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    color: var(--default-color);
+    font-size: 22px;
+}
+
+h3 {
+    color: var(--accent-color);
+    border-radius: 20px;
+}
+
+.highlight {
+    color: var(--accent-color);
+}
+
+.primary-buttons {
+    color: var(--contrast-color);
+    background-color: var(--accent-color);
+}
+
+.primary-buttons:hover {
+    color: white;
+}
+
+
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+    font-family: var(--default-font);
+}
+
+
+/*--------------------------------------------------------------
+# Global Sections
+--------------------------------------------------------------*/
+section,
+.section {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    padding: 60px 0;
+    scroll-margin-top: 90px;
+    overflow: clip;
+}
+
+@media (max-width: 1199px) {
+
+    section,
+    .section {
+        scroll-margin-top: 66px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Global Section Titles
+--------------------------------------------------------------*/
+.section-title {
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+}
+
+.section-title h2:before,
+.section-title h2:after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: var(--accent-color);
+    display: inline-block;
+}
+
+.section-title h2:before {
+    margin: 0 15px 10px 0;
+}
+
+.section-title h2:after {
+    margin: 0 0 10px 15px;
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .section-title h2 {
+        font-size: 20px;
+    }
+
+    .section-title h2:before,
+    .section-title h2:after {
+        content: "";
+        width: 20px;
+        height: 2px;
+        background: var(--accent-color);
+        display: inline-block;
+    }
+}
+
+
+
+/*--------------------------------------------------------------
+# Error 404 Section
+--------------------------------------------------------------*/
+.error-404 {
+    padding: 100px 0;
+    background: linear-gradient(135deg, color-mix(in srgb, var(--background-color), transparent 0%), color-mix(in srgb, var(--background-color), var(--accent-color) 4%));
+}
+
+.error-404 .error-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.error-404 .error-illustration {
+    position: relative;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-404 .error-illustration i {
+    font-size: 9rem;
+    color: color-mix(in srgb, var(--accent-color), transparent 10%);
+    position: relative;
+    z-index: 2;
+    animation: pulse 2s infinite;
+}
+
+.error-404 .error-illustration .circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.error-404 .error-illustration .circle.circle-1 {
+    width: 200px;
+    height: 200px;
+    background: color-mix(in srgb, var(--accent-color), transparent 80%);
+    animation: float 6s ease-in-out infinite;
+}
+
+.error-404 .error-illustration .circle.circle-2 {
+    width: 120px;
+    height: 120px;
+    background: color-mix(in srgb, var(--heading-color), transparent 85%);
+    top: 30%;
+    left: 25%;
+    animation: float 8s ease-in-out infinite;
+}
+
+.error-404 .error-illustration .circle.circle-3 {
+    width: 80px;
+    height: 80px;
+    background: color-mix(in srgb, var(--accent-color), transparent 75%);
+    bottom: 20%;
+    right: 30%;
+    animation: float 7s ease-in-out infinite reverse;
+}
+
+.error-404 .error-content {
+    padding: 30px 0;
+}
+
+.error-404 .error-badge {
+    display: inline-block;
+    background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+    color: var(--accent-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.error-404 .error-code {
+    font-size: clamp(5rem, 10vw, 8rem);
+    font-weight: 900;
+    margin: 0;
+    background: linear-gradient(135deg, var(--heading-color), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.error-404 .error-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--heading-color);
+    margin-bottom: 1.5rem;
+}
+
+.error-404 .error-description {
+    font-size: 1.1rem;
+    color: color-mix(in srgb, var(--default-color), transparent 15%);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.error-404 .error-actions {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.error-404 .error-actions .btn-home,
+.error-404 .error-actions .btn-help {
+    padding: 0.8rem 1.8rem;
+    border-radius: 8px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.error-404 .error-actions .btn-home i,
+.error-404 .error-actions .btn-help i {
+    font-size: 1.2rem;
+}
+
+.error-404 .error-actions .btn-home {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+    border: none;
+}
+
+.error-404 .error-actions .btn-home:hover {
+    background-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px color-mix(in srgb, var(--accent-color), transparent 70%);
+}
+
+.error-404 .error-actions .btn-help {
+    background-color: transparent;
+    color: var(--accent-color);
+    border: 2px solid color-mix(in srgb, var(--accent-color), transparent 75%);
+}
+
+.error-404 .error-actions .btn-help:hover {
+    background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+    transform: translateY(-3px);
+}
+
+.error-404 .error-suggestions {
+    padding: 1.5rem;
+    background-color: color-mix(in srgb, var(--background-color), var(--accent-color) 5%);
+    border-radius: 12px;
+}
+
+.error-404 .error-suggestions h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+}
+
+.error-404 .error-suggestions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.error-404 .error-suggestions ul li {
+    margin-bottom: 0.8rem;
+}
+
+.error-404 .error-suggestions ul li:last-child {
+    margin-bottom: 0;
+}
+
+.error-404 .error-suggestions ul li a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--default-color);
+    font-size: 1.05rem;
+    transition: all 0.3s;
+}
+
+.error-404 .error-suggestions ul li a i {
+    color: var(--accent-color);
+    font-size: 1.1rem;
+    transition: transform 0.3s;
+}
+
+.error-404 .error-suggestions ul li a:hover {
+    color: var(--accent-color);
+}
+
+.error-404 .error-suggestions ul li a:hover i {
+    transform: translateX(3px);
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@media (max-width: 992px) {
+    .error-404 .error-illustration {
+        height: 300px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .error-404 {
+        padding: 70px 0;
+    }
+
+    .error-404 .error-code {
+        font-size: clamp(4rem, 12vw, 6rem);
+    }
+
+    .error-404 .error-title {
+        font-size: 1.8rem;
+    }
+
+    .error-404 .error-actions {
+        flex-direction: column;
+    }
+
+    .error-404 .error-actions .btn-home,
+    .error-404 .error-actions .btn-help {
+        width: 100%;
+        justify-content: center;
+    }
+}
