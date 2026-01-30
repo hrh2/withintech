@@ -144,30 +144,30 @@ function SectionAboutUs() {
                                     <ul className="space-y-1 text-gray-700 text-lg font-light">
                                         <li className="flex items-start">
                                             <span
-                                                className="w-2 h-2 bg-amber-500 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
+                                                className="w-2 h-2 bg-[#FF3F00] rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                                             <span>Ubumuntu</span>
                                         </li>
                                         <li className="flex items-start">
                                             <span
-                                                className="w-2 h-2 bg-amber-500 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
+                                                className="w-2 h-2 bg-[#FF3F00] rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                                             <span>Hands on Impact</span>
                                         </li>
                                         <li className="flex items-start">
                                             <span
-                                                className="w-2 h-2 bg-amber-500 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
+                                                className="w-2 h-2 bg-[#FF3F00] rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                                             <span>Inclusive Innovation</span>
                                         </li>
                                         <li className="flex items-start">
                                             <span
-                                                className="w-2 h-2 bg-amber-500 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
+                                                className="w-2 h-2 bg-[#FF3F00] rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                                             <span>Joyful Discovery</span>
                                         </li>
                                         <li className="flex items-start">
-                                            <span className="w-2 h-2 bg-amber-500 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
+                                            <span className="w-2 h-2 bg-[#FF3F00] rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                                             <span>Community Connection</span>
                                         </li>
                                         <li className="flex items-start">
-                                            <span className="w-2 h-2 bg-amber-500 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
+                                            <span className="w-2 h-2 bg-[#FF3F00] rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                                             <span>Future Focused Empowerment</span>
                                         </li>
                                     </ul>

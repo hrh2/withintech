@@ -8,10 +8,10 @@ import 'swiper/css/pagination';
 
 function SectionPartners() {
     const partners_images = [
+        "/partners/p4.png",
         "/partners/p3.png",
         "/partners/p1.png",
         "/partners/p2.png",
-        "/partners/p4.png",
         "/partners/p5.png",
     ]
 

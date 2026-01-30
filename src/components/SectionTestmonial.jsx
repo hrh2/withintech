@@ -140,7 +140,7 @@ function SectionTestimonials() {
 
                                             {/* Name */}
                                             <div>
-                                                <h2>{testimonial.name}</h2>
+                                                <h2 className={"font-black text-[24px]"}>{testimonial.name}</h2>
                                                 {/*<h3 className="font-medium">Community Member</h3>*/}
                                             </div>
                                         </div>

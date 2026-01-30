@@ -26,10 +26,10 @@ function SectionWhy() {
             </div>
 
             {/* Content Wrapper */}
-            <div className="relative min-h-screen flex items-end justify-end ">
-                <div className="relative w-full max-w-3xl lg:max-w-4xl ">
+            <div className="relative min-h-[120vh] flex items-end justify-end ">
+                <div className="relative w-full #lg:max-w-4xl max-w-2xl  ">
                     {/* Main Card */}
-                    <div className="bg-[#FFFFFF] text-[#575757] rounded-tl shadow-2xl p-8 sm:p-20 relative overflow-hidden">
+                    <div className="bg-[#FFFFFF] text-[#575757] rounded-tl shadow-2xl p-14 relative overflow-hidden">
                         {/* Decorative Corner */}
                         <div className="absolute top-0 left-0 w-20 h-20">
                             <div
