@@ -18,10 +18,10 @@ function SectionCallToAction() {
     ];
 
     return (
-        <div className="relative donate-section #bg-[#FF3F00]/15 min-h-[200vh] sm:py-28 overflow-hidden">
+        <div className="relative donate-section  min-h-[200vh] sm:py-28 overflow-hidden">
             {/* Background Image with Overlay */}
             <div
-                className="absolute inset-0 -z-10"
+                className="absolute inset-0 -z-10 bg-[#FF3F00]/15"
                 style={{
                     backgroundImage: 'url("/images/BG.png")',
                     backgroundSize: 'cover',

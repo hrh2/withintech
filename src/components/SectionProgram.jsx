@@ -28,13 +28,13 @@ function SectionProgram() {
             number: "4",
             title: "Coding & Robotics",
             subtitle: "250+ Students Benefited",
-            image: "/images/image06.JPG",
+            image: "/images/hero-card-3.png",
             height: "h-[500px]"
         }
     ];
 
     return (
-        <div className="relative py-20 sm:py-28 light-background">
+        <div className="relative py-20 sm:py-28 light-background bg-white">
             <div
                 className="absolute inset-0 -z-10"
                 style={{

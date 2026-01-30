@@ -12,9 +12,9 @@ function Footer() {
     };
 
     return (
-        <footer className="relative bg-purple-950 dark-background ">
+        <footer className="relative  dark-background ">
             <div
-                className="absolute inset-0 -z-10"
+                className="absolute bg-purple-950 inset-0 -z-10"
                 style={{
                     backgroundImage: 'url("/images/footer.png")',
                     backgroundSize: 'cover',

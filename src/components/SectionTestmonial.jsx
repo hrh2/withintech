@@ -26,6 +26,16 @@ function SectionTestimonials() {
             quote: "Training with WithinTech was one of the most meaningful moments of my learning journey. Today, I believe in myself and in what I’m capable of doing.",
             name: "Gabriella",
             image: "/images/gabriella.JPG"
+        },
+        {
+            quote: `Just wrapped up an amazing holiday coding program! Learned a ton, had so much fun, and grew my skills big time. Highly recommend @withintechrwanda to anyone looking to level up their coding game.`,
+            name: "Esther",
+            image: "/images/esther.JPG"
+        },
+        {
+            quote: `I had the opportunity to participate in the Within Tech Summer Camp (Cohort 2), where I learned a lot about coding and robotics. I am currently studying at NIT. Special thanks to the Mother of Mentees for the guidance and continuous support`,
+            name: "Sharif",
+            image: "/images/sharif.JPG"
         }
     ];
 
