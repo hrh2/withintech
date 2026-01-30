@@ -20,24 +20,24 @@ function SectionAboutUs() {
                     {/* Left column: Text content */}
                     <div className="text-left space-y-8 pt-8">
                         <div className="space-y-4">
-                            <h3 className="tracking-[0.3em] flex ">
-                                <span className={'border border-[#FF3F00]  flex justify-start rounded-3xl px-2'}>
+                            <h3 className="tracking-[0.3em] flex pb-6 ">
+                                <span className={'border border-[#FF3F00]  text-[18px] font-medium flex justify-start rounded-3xl px-2'}>
 
                                <VscSparkleFilled className={"my-auto"}/>&nbsp; Who We Are
                                 </span>
                             </h3>
-                            <h1 className="leading-[1.1] ">
+                            <h1 className="leading-[1.1] font-bold text-[38px] ">
                                 Empowering theNext Generation Of Tech Builders
                             </h1>
                         </div>
 
-                        <p className="leading-relaxed max-w-xl">
+                        <p className="leading-relaxed max-w-xl font-normal text-[18px]">
                             WithinTech Rwanda is a leading EdTech organization dedicated to bridging the digital skills
                             gap in Rwanda. We empower young people with hands-on coding, robotics, and tech programs in
                             the digital world.
                         </p>
                         {/* Right column: Stacked cards */}
-                    <div className="relative h-[450px] light-background ">
+                    <div className="relative h-[500px] light-background ">
                         {/* Our Mission Card - Top layer */}
                         <div
                             className="absolute top-0 left-0 right-0 w-full transform -rotate-1 transition-transform duration-300 hover:rotate-0 hover:scale-[1.02] z-30"
@@ -63,14 +63,14 @@ function SectionAboutUs() {
                                     <div className="absolute bottom-1 right-2 w-4 h-8 bg-white "></div>
                                 </div>
 
-                                <div className="relative z-10 p-8">
-                                    <p className="text-gray-700 text-lg leading-relaxed font-light">
+                                <div className="relative z-10 p-14">
+                                    <p className="text-gray-700 leading-relaxed font-light text-[14px]">
                                         With people at the center, we lead with Ubumuntu — humanity first. We build
                                         inclusive spaces where collaboration thrives, mentorship matters, and every
                                         young person feels seen, supported, and capable of growing.
                                     </p>
-                                    <div className="h-1.5 bg-gradient-to-r from-amber-500 to-orange-500 mb-6"></div>
-                                     <h2 className=" mt-4  tracking-tight">
+                                    <div className="h-1.5 bg-gray-300"></div>
+                                     <h2 className=" mt-4  tracking-tight text-[24px] font-black">
                                         Our Mission
                                     </h2>
                                 </div>
@@ -102,14 +102,13 @@ function SectionAboutUs() {
                                     <div className="absolute bottom-1 right-2 w-4 h-8 bg-white "></div>
                                 </div>
 
-                                <div className="relative z-10">
+                                <div className="relative z-10 p-10">
                                     <p className="text-gray-700 text-lg leading-relaxed font-light">
                                         To be Rwanda's leading platform for youth digital empowerment, creating a
                                         generation of innovators, problem-solvers, and tech leaders.
                                     </p>
-                                    <div
-                                        className="h-1.5 bg-gradient-to-r from-amber-500 to-orange-500 mb-6"></div>
-                                       <h2 className="mb-4 tracking-tight">
+                                    <div className="h-1.5 bg-gray-300"></div>
+                                     <h2 className=" mt-4  tracking-tight text-[24px] font-black">
                                         Our Vision
                                     </h2>
                                 </div>
@@ -141,7 +140,7 @@ function SectionAboutUs() {
                                     <div className="absolute bottom-1 right-2 w-4 h-8 bg-white "></div>
                                 </div>
 
-                                <div className="relative z-10">
+                                <div className="relative z-10 p-8">
                                     <ul className="space-y-1 text-gray-700 text-lg font-light">
                                         <li className="flex items-start">
                                             <span
@@ -172,8 +171,8 @@ function SectionAboutUs() {
                                             <span>Future Focused Empowerment</span>
                                         </li>
                                     </ul>
-                                    <div className="h-1.5 bg-gradient-to-r from-amber-500 to-orange-500"></div>
-                                     <h2 className="mb-4 tracking-tight">
+                                    <div className="h-1.5 bg-gray-300"></div>
+                                     <h2 className=" mt-4  tracking-tight text-[24px] font-black">
                                         Our Values
                                     </h2>
                                 </div>
@@ -182,7 +181,7 @@ function SectionAboutUs() {
                     </div>
                         <a
                             href="#"
-                            className="inline-block mt-8 px-10 py-4 primary-buttons font-bold transition-all duration-200 uppercase tracking-wider rounded-md"
+                            className="inline-block mt-8 px-10 py-4 primary-buttons font-semibold text-[20px] transition-all duration-200 tracking-wider rounded-md"
                         >
                             Register Now
                         </a>

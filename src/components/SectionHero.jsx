@@ -13,23 +13,23 @@ export default function HeroSection() {
         }}
       >
         {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-black/80"></div>
       </div>
 
       {/* Hero Content */}
       <div className="relative px-6 pt-8 lg:px-8">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-40">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative flex rounded-full px-3 py-1 text-sm/6 text-white bg-white/10 ring-1 ring-white/10 hover:ring-white/20">
+            <div className="font-medium text-[16px] relative flex rounded-full px-3 py-1 text-white bg-white/10 ring-1 ring-white/10 hover:ring-white/20">
               <VscSparkleFilled className={"my-auto"}/>&nbsp; Get-into-tech: Summer Camp 2026 {' | '} Coming Soon
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-3xl font-semibold tracking-tight text-balance sm:text-5xl">
+            <h1 className="md:text-[58px] text-3xl font-semibold tracking-tight text-balance sm:text-5xl">
               Empowering <span className="highlight">Young Tech</span> <br/>
               <span className="highlight">Builders</span> to Build the Future
             </h1>
-            <p className="mt-8 font-medium text-pretty sm:text-xl/8">
+            <p className="mt-8 font-normal text-[20px]">
               WithinTech Rwanda is a leading EdTech organization that equips students with hands-on skills in coding, robotics, and AI through mentorship, camps, and competitions.
             </p>
           </div>

@@ -27,27 +27,27 @@ function SectionWhy() {
 
             {/* Content Wrapper */}
             <div className="relative min-h-screen flex items-end justify-end ">
-                <div className="relative w-full max-w-2xl lg:max-w-3xl ">
+                <div className="relative w-full max-w-3xl lg:max-w-4xl ">
                     {/* Main Card */}
-                    <div className="bg-[#FCE3B9]/80 text-[#575757] rounded-tl-[80px] shadow-2xl p-8 sm:p-12 relative overflow-hidden">
+                    <div className="bg-[#FFFFFF] text-[#575757] rounded-tl shadow-2xl p-8 sm:p-20 relative overflow-hidden">
                         {/* Decorative Corner */}
-                        <div className="absolute top-0 left-0 w-32 h-32">
+                        <div className="absolute top-0 left-0 w-20 h-20">
                             <div
-                                className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 to-transparent rounded-tl-[80px]"/>
+                                className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 to-transparent rounded-tl"/>
                         </div>
 
                         {/* Content */}
                         <div className="relative z-10">
-                            <h3 className="tracking-[0.3em] flex justify-start">
-                               <span className={'border border-[#FF3F00] bg-[#FF3F00]/5  flex justify-start rounded-3xl px-2'}>
+                            <h3 className="tracking-[0.3em] flex justify-start pb-6">
+                               <span className={'text-[18px] font-medium border border-[#FF3F00] bg-[#FF3F00]/5  flex justify-start rounded-3xl px-2'}>
 
                                <VscSparkleFilled className={"my-auto"}/>&nbsp; Why choose us
                                 </span>
                             </h3>
 
-                            <h2 className="mb-6 leading-tight">
+                            <h2 className="mb-6 leading-tight font-bold text-[38px]">
                                 Transforming Technology Education for the Future</h2>
-                            <p className="mb-8 text-[#575757]">
+                            <p className="mb-8 text-[#575757] font-normal text-[18px]">
                                 We offer programs that combine practical learning, mentorship,
                                 and global exposure to prepare young innovators for the modern
                                 tech world.
@@ -81,7 +81,7 @@ function SectionWhy() {
                                             </div>
                                         </div>
                                         <span
-                                            className="transition-colors">
+                                            className="transition-colors font-normal text-[18px]">
                                     {benefit}
                     </span>
                                     </li>
@@ -91,7 +91,7 @@ function SectionWhy() {
                             {/* CTA */}
                             <a
                                 href="#"
-                                className="primary-buttons inline-block mt-8 px-10 py-4 font-bold transition-all duration-200 uppercase tracking-wider rounded-md"
+                                className="primary-buttons inline-block mt-8 px-10 py-4 font-semibold text-[20px] !bg-[#350066] transition-all duration-200 tracking-wider rounded-md"
                             >
                                 Explore More
                             </a>

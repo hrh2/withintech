@@ -8,22 +8,21 @@ import 'swiper/css/pagination';
 
 function SectionPartners() {
     const partners_images = [
+        "/partners/p3.png",
         "/partners/p1.png",
         "/partners/p2.png",
-        "/partners/p3.png",
         "/partners/p4.png",
         "/partners/p5.png",
-        "/partners/p6.png",
     ]
 
     return (
         <div className="py-8 sm:py-24 light-background bg-white">
             <div className="container mx-auto px-6 lg:px-8">
                 <div className="mb-12">
-                    <h2 className=" mb-4">
+                    <h2 className=" mb-4 font-bold text-[30px]">
                         Our Partners
                     </h2>
-                    <p className="max-w-3xl">
+                    <p className="max-w-3xl font-normal text-[18px]">
                         Each collaboration has helped us reach more learners, unlock more potential, and build lasting impact.
                     </p>
                 </div>
@@ -61,7 +60,7 @@ function SectionPartners() {
                                     <img
                                         src={image}
                                         alt={`Partner ${index + 1}`}
-                                        className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                                        className="w-full h-full object-contain #grayscale hover:grayscale-0 transition-all duration-300"
                                         onError={(e) => {
                                             e.target.src = 'https://via.placeholder.com/150x150/6366f1/ffffff?text=Partner';
                                         }}
