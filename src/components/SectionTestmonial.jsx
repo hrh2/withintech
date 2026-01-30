@@ -13,29 +13,19 @@ import {FaQuoteRight} from "react-icons/fa";
 function SectionTestimonials() {
     const testimonials = [
         {
-            quote: "WithinTech Rwanda completely transformed my understanding of technology. The hands-on approach and supportive mentors helped me build real projects that I'm proud of.",
-            name: "Aisha Uwimana",
-            image: "https://i.pravatar.cc/150?img=1"
+            quote: "WithinTech allowed me to write my first Hello World in coding. That moment changed everything for me. After attending their training, I gained the confidence and skills that helped me get a job.",
+            name: "Teta Nancy",
+            image: "/images/Nancy.JPG"
         },
         {
-            quote: "The summer camp was an eye-opening experience. I learned robotics, AI, and made lifelong friends. Now I'm pursuing computer science in university!",
-            name: "Jean Paul Nkusi",
-            image: "https://i.pravatar.cc/151?img=2"
+            quote: "Through the Get Into Tech Summer Camp, I worked on a real project with my team using the skills I gained during the training. It helped me understand how technology solves real problems.",
+            name: "Aimé Loïc",
+            image: "/images/Aime.JPG"
         },
         {
-            quote: "As a mentor, I've seen firsthand how WithinTech empowers young minds. The students' growth and enthusiasm are truly inspiring.",
-            name: "Divine Mukamana",
-            image: "https://i.pravatar.cc/154?img=3"
-        },
-        {
-            quote: "Partnering with WithinTech has been incredible. Their commitment to digital inclusion and quality education is unmatched.",
-            name: "Patrick Habimana",
-            image: "https://i.pravatar.cc/100?img=4"
-        },
-        {
-            quote: "I never thought I could code, but the inclusive environment at WithinTech made me believe in myself. Now I'm building my own apps!",
-            name: "Grace Ishimwe",
-            image: "https://i.pravatar.cc/110?img=5"
+            quote: "Training with WithinTech was one of the most meaningful moments of my learning journey. Today, I believe in myself and in what I’m capable of doing.",
+            name: "Gabriella",
+            image: "/images/gabriella.JPG"
         }
     ];
 

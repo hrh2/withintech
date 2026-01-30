@@ -20,7 +20,7 @@ function SectionWhy() {
                         'url("/images/image12.JPG")',
                     backgroundSize: "cover",
                     backgroundPosition: "center",
-                    backgroundAttachment: "fixed",
+                    // backgroundAttachment: "fixed",
                 }}
             >
             </div>
