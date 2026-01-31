@@ -31,11 +31,11 @@ function SectionCallToAction() {
                                 </span>
                             </h3>
                     <h2 className=" mb-6 leading-tight font-bold text-[38px] ">
-                        Empowering Rwanda's Future
-                        Tech Leaders
+                        Support the Young Builders of Tomorrow
                     </h2>
                     <p className="leading-relaxed max-w-4xl mx-auto text-[#575757] text-[18px] font-normal ">
-                        Join WithinTech Rwanda and participate in programs, competitions, and workshops designed to equip students with in-demand tech skills, AI knowledge, and hands-on robotics experience.
+                        Have You Ever Wanted to Support Young Learners in Your Community?<b/>
+                        This is your moment to contribute and help us reach more young people building their future through technology this year.
                     </p>
                 </div>
 

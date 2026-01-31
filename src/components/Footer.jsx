@@ -56,7 +56,7 @@ function Footer() {
                                 </button>
                             </form>
                             <p className="text-sm  mt-3">
-                                Get latest updates on our programs and events
+                                Get updates on programs, events, and opportunities at WithinTech
                             </p>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ function Footer() {
                                     className="text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-300 group"
                                 >
                                     <span className="flex items-center gap-2">
-                                        <span className="w-0 h-0.5 bg-indigo-500 group-hover:w-4 transition-all duration-300"></span>
+                                        <span className="w-0 h-0.5 bg-[#FF3F00] group-hover:w-4 transition-all duration-300"></span>
                                         About
                                     </span>
                                 </a>
@@ -84,7 +84,7 @@ function Footer() {
                                     className="text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-300 group"
                                 >
                                     <span className="flex items-center gap-2">
-                                        <span className="w-0 h-0.5 bg-indigo-500 group-hover:w-4 transition-all duration-300"></span>
+                                        <span className="w-0 h-0.5 bg-[#FF3F00] group-hover:w-4 transition-all duration-300"></span>
                                         Contact Us
                                     </span>
                                 </a>
@@ -95,7 +95,7 @@ function Footer() {
                                     className="text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-300 group"
                                 >
                                     <span className="flex items-center gap-2">
-                                        <span className="w-0 h-0.5 bg-indigo-500 group-hover:w-4 transition-all duration-300"></span>
+                                        <span className="w-0 h-0.5 bg-[#FF3F00] group-hover:w-4 transition-all duration-300"></span>
                                         Impact
                                     </span>
                                 </a>
@@ -106,7 +106,7 @@ function Footer() {
                                     className="text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-300 group"
                                 >
                                     <span className="flex items-center gap-2">
-                                        <span className="w-0 h-0.5 bg-indigo-500 group-hover:w-4 transition-all duration-300"></span>
+                                        <span className="w-0 h-0.5 bg-[#FF3F00] group-hover:w-4 transition-all duration-300"></span>
                                         Gallery
                                     </span>
                                 </a>
@@ -157,7 +157,7 @@ function Footer() {
                                         href="https://linkedin.com"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="w-10 h-10 rounded-full bg-white/10 hover:bg-gradient-to-r hover:from-indigo-600 hover:to-purple-600 flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                                        className="w-10 h-10 rounded-full bg-white/10 hover:bg-gradient-to-r hover:from-[#FF3F00] hover:to-[#FF3F00] flex items-center justify-center transition-all duration-300 hover:scale-110 group"
                                     >
                                         <svg
                                             className="w-5 h-5 text-gray-300 group-hover:text-white transition-colors"
@@ -173,7 +173,7 @@ function Footer() {
                                         href="https://twitter.com"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="w-10 h-10 rounded-full bg-white/10 hover:bg-gradient-to-r hover:from-indigo-600 hover:to-purple-600 flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                                        className="w-10 h-10 rounded-full bg-white/10 hover:bg-gradient-to-r hover:from-[#FF3F00] hover:to-[#FF3F00] flex items-center justify-center transition-all duration-300 hover:scale-110 group"
                                     >
                                         <svg
                                             className="w-5 h-5 text-gray-300 group-hover:text-white transition-colors"
@@ -189,7 +189,7 @@ function Footer() {
                                         href="https://facebook.com"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="w-10 h-10 rounded-full bg-white/10 hover:bg-gradient-to-r hover:from-indigo-600 hover:to-purple-600 flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                                        className="w-10 h-10 rounded-full bg-white/10 hover:bg-gradient-to-r hover:from-[#FF3F00] hover:to-[#FF3F00] flex items-center justify-center transition-all duration-300 hover:scale-110 group"
                                     >
                                         <svg
                                             className="w-5 h-5 text-gray-300 group-hover:text-white transition-colors"
@@ -210,7 +210,7 @@ function Footer() {
 
                 {/* Copyright Section */}
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-                    <p className={` w-full text-center`}>
+                    <p className={` w-full text-center text-[16px] font-semibold`}>
                         © {new Date().getFullYear()} WithinTech Rwanda. All rights reserved.
                     </p>
                 </div>
